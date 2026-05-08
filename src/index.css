@@ -1,0 +1,19 @@
+/* Web fonts — Fraunces / Geist / JetBrains Mono are loaded via index.html.
+   This file is now intentionally minimal: the MUI theme owns all styling
+   tokens (palette, typography, shape, component overrides). */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11";
+}
+
+* {
+  box-sizing: border-box;
+}
