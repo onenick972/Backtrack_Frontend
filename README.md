@@ -5,9 +5,9 @@ Custom billing and financial-management application for **Francis Financial & Bu
 ## Stack
 
 - **Backend:** ASP.NET Core 8 (Web API), Entity Framework Core, PostgreSQL (Supabase-managed or self-hosted)
-- **Frontend:** React 18 + TypeScript + Vite, TailwindCSS, TanStack Query, React Router
+- **Frontend:** React 18 + TypeScript + Vite, Material UI 9, TanStack Query, React Router
 - **Auth:** JWT (access + refresh tokens), BCrypt password hashing
-- **RBAC:** Admin, Accountant, Viewer roles
+- **RBAC:** Admin, Supervisor, Manager, Clerk, Viewer roles
 
 ## Architecture
 
